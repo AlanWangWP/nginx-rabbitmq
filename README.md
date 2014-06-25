@@ -7,9 +7,9 @@ Installation
 ============
 1. Download openresty: http://openresty.org/
 2. Unzip source and go to unzipped directory in terminal
-3. Type:  ./configure --with-luajit
-          sudo make
-          sudo make install
+3. Type:	./configure --with-luajit
+		sudo make
+		sudo make install
 4. Install RabbitMQ-C library: https://github.com/alanxz/rabbitmq-c
    Follow the instructions to install rabbitmq-c
 5. Put amqp.lua and amqp-util.lua to /usr/local/share/luajit-2.1.0-alpha/
