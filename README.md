@@ -17,7 +17,8 @@ Installation
 6. Use above nginx.conf file to override /usr/local/openresty/nginx/conf/nginx.conf
    You can change your ip, exchange, queue, user, password variables for RabbitMQ in nginx.conf file
 7. Restart your nginx and open terminal to type: curl -i localhost/test?rum=test&v=0.9
-   Sample reply is :
+   Sample reply is
+
 HTTP/1.1 200 OK
 Server: openresty/1.7.0.1
 Date: Wed, 25 Jun 2014 18:07:11 GMT
