@@ -1,5 +1,12 @@
 nginx-rabbitmq
 ==============
+This version would be better: <br />
+https://github.com/AlanWangWP/nginx-amqp
+
+
+
+
+
 This module is used to forward data stream in http GET request to RabbitMQ. In this module, nginx will take values of rum and send them to RabbitMQ.
 For example, if request is : localhost/test?rum=test&v=0.9, nginx would send "test" to RabbitMQ
 
